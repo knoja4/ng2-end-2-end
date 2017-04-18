@@ -16,11 +16,11 @@ export class UserService implements CanActivate {
     
     constructor( private router: Router ) {
         firebase.initializeApp({
-            apiKey: "API Key Goes Here",
-    	    authDomain: "Auth Domain Goes Here",
+            apiKey: "API Key goes here",
+    	    authDomain: "Auth Domain info goes here",
             databaseURL: "Database URL goes here",
-            storageBucket: "Storage bucket info goes here",
-            messagingSenderId: "Message Sender ID goes here"
+            storageBucket: "Storage bucket goes here",
+            messagingSenderId: "Message sende ID goes here"
         })
      }
 
